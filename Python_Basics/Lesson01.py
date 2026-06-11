@@ -105,6 +105,6 @@ fruits = ["apple", "banana", "cherry", "date", "elderberry"]
 
 # Expected ['apple', 'cherry', 'date', 'elderberry', 'fig']
 
-fruits.pop(1)
+fruits.pop()
 fruits.append("fig")
 print(fruits)
